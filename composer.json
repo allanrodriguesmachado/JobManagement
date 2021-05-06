@@ -1,0 +1,18 @@
+{
+    "name": "allanrodrigues/crud",
+    "authors": [
+        {
+            "name": "allanrodrigues",
+            "email": "allan.rodrigues14@hotmail.com"
+        }
+    ],
+    "description": "Project CRUD PHP",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
