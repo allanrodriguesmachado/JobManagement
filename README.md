@@ -1,5 +1,7 @@
 # CRUD
-CRUD => orientado a objetos, PDO e MySQL
+  -Orientado a objetos
+  -PDO
+  -MySQL
 
 
 ![PT1](https://user-images.githubusercontent.com/54523516/117237280-fa72e980-ae00-11eb-9fe7-8c9a1b04e6e3.png)
