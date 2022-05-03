@@ -1,6 +1,6 @@
 # CRUD
 
-- Orientado a objetos
+- Object Oriented
 
 - PDO
 
