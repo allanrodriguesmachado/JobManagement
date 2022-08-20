@@ -48,8 +48,13 @@ class Vaga
      */
     public function cadastrar(): bool
     {
+
+
+
         $this->data = date('Y-m-d H:i:s');
         $obDatabase = new Database('php_vagas');
+
+
         $this->id = $obDatabase->insert([
             'titulo'    => $this->titulo,
             'descricao' => $this->descricao,

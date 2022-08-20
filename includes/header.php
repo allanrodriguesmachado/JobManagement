@@ -1,3 +1,11 @@
+<?php
+
+use \App\Session\Login;
+
+$usuarioLogado = Login::getUsuarioLogado();
+$usuario = $usuarioLogado ? $usuarioLogado['nome'].'<a class="text-light font-weight-bold m-2" href="logout.php">Sair</a>' : 'Visitante ' . '<a class="text-light font-weight-bold ml-2" href="login.php">Entrar</a>'
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,5 +27,7 @@
         <div class="jumbotron bg-primary p-5 text-center">
             <h1>CRUD - Vagas</h1>
             <p>CRUD com PHP Orientado a objetos</p>
+            <hr class="border-light">
+            <div class="d-flex justify-content-start"> <?= $usuario ?></div>
         </div>
 

@@ -5,6 +5,9 @@ require __DIR__.'/vendor/autoload.php';
 define('TITLE','Editar vaga');
 
 use \App\Entity\Vaga;
+use \App\Session;
+
+Session\Login::requireLogin();
 
 //VALIDAÇÃO DO ID
 if(!isset($_GET['id']) or !is_numeric($_GET['id'])){
